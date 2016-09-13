@@ -1,0 +1,13 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="424" Width="512">
+    <Canvas>
+        <Image x:Name="roomImage" Width="512" Height="424"/>
+        <Canvas x:Name="CanvasBody" Width="512" Height="424"  />
+        <Image x:Name="Image1" HorizontalAlignment="Left" Height="218" VerticalAlignment="Top" Width="204" Source="Image/太鼓.png" Canvas.Left="79" Canvas.Top="175"/>
+        <Image x:Name="Image2" HorizontalAlignment="Left" Height="142" VerticalAlignment="Top" Width="251" Source="Image/ドラム.png" Canvas.Left="243" Canvas.Top="251"/>
+        <MediaElement x:Name="MediaElement1" Height="29" Canvas.Left="389" Canvas.Top="338" Width="77" LoadedBehavior="Manual" UnloadedBehavior="Manual" Source="WAV/Taiko.wav"/>
+        <MediaElement x:Name="MediaElement2" Height="29" Canvas.Left="389" Canvas.Top="338" Width="77" LoadedBehavior="Manual" UnloadedBehavior="Manual" Source="WAV/drum.wav"/>
+    </Canvas>
+</Window>
